@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# Postie
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Postie is a comprehensive digital platform designed to enhance the service delivery and operational efficiency of the Indian postal system. It supports all major functionalities of post office services, including route management, citizen tracking, performance monitoring, and service notifications. Postie improves the measurability of Citizens' Charter compliance through real-time performance tracking and data-driven decision-making.
 
-## Get started
+## Features
+- **Postal Service Tracking:** Allows citizens to track mail delivery, money orders, and other postal services.
+- **Route Optimization & Performance Tracking:** Calculates best NSH routes and monitors service delivery in real-time.
+- **Complaint Resolution:** Facilitates complaint registration and resolution tracking.
+- **Citizen Engagement:** Enables postal tracking and automated alerts via a secure portal.
+- **Data-Driven Insights:** Provides visual dashboards for performance analysis and decision-making.
+- **Web Dashboard:** Interactive web-based platform for officials to monitor KPIs and manage data.
+- **Mobile App:** User-friendly app for operative office staff to capture real-time data on Citizens' Charter KPIs.
 
-1. Install dependencies
+## Architecture Overview
+Postie consists of two primary components:
+1. **Web Dashboard:** Provides an interactive platform for officials to track service performance and access visual insights.
+2. **Mobile App:** Allows field staff to collect real-time service data, which is aggregated and analyzed.
 
-   ```bash
-   npm install
-   ```
+## Technology Stack
+- Frontend: React
+- Backend: Django
+- Cloud Services: AWS
+- Mobile App: React Native
 
-2. Start the app
+## Installation
+### Prerequisites
+- Node.js
+- Python
+- MongoDB
+- AWS CLI
+- React Native Environment
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
+1. Use the mobile app to capture Citizens' Charter KPIs.
+2. View real-time performance data on the web dashboard.
+3. Citizens can track their postal services, register complaints, and receive notifications via the portal.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## License
+This project is licensed under the MIT License.
